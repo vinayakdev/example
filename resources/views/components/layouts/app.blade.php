@@ -10,7 +10,10 @@
 
 </head>
 
-<body>
+<body x-data="{
+    init() {}
+}">
+
     {{ $slot }}
 </body>
 

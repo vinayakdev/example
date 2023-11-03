@@ -14,6 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+Route::get("/", function () {
+    return view('numeraion');
+});
+
+
 Route::get('/database/simple', [Controller::class, 'simple']);
 Route::get('/database/complex', [Controller::class, 'complex']);
 Route::get(
